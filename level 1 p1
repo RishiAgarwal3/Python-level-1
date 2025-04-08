@@ -1,0 +1,11 @@
+name = "rishi"
+print (name)
+name=input("enter your name")
+print (name)
+print (type(name))
+age= int(input("enter your age"))
+print (age+2,type(age))
+weight= float(input("enter your weight"))
+print (weight,type(weight))
+email=input("enter your email")
+print (email)
