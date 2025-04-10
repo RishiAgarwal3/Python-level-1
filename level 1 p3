@@ -1,0 +1,6 @@
+name = (input("enter your name"))
+age = int(input("enter your age"))
+gender = (input("enter your gender"))
+nationality = (input("enter your nationality"))
+print ("your name is",name,"your age is",age,"you are a",gender,"yoaur nationality is",nationality)
+
