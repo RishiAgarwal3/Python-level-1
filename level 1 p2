@@ -1,0 +1,19 @@
+n1=float(input("enter the first number"))
+n2=float(input("enter the second number"))
+op=input("enter the operation you want to perform")
+if op=="+":
+  print ("the sum of numbers is",n1+n2)
+elif op=="-":
+  print("the difference of the numbers is", n1-n2)
+elif op=="*" :
+    print("the product of the numbers is", n1*n2)
+elif op=="/":
+  print ("the division of the numbers is",n1/n2)
+elif op=="//":
+  print ("the integer division of numbers is", n1//n2)
+elif op=="**":
+  print ("the number raised to the power of second nmber is", n1**n2)
+elif op=="%":
+  print ('the remainder of the numbers is', n1%n2)
+else :
+  print ("please enter the correct operator")
