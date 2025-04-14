@@ -1,0 +1,8 @@
+student_list=["rishi","tia","adi","rohit"]
+print (len(student_list))
+print (student_list[2])
+marks_list=[12,20,17,8,6,20,3,2]
+print (marks_list)
+print ("the average of the marks is",sum(marks_list)/len(marks_list))
+print (max(marks_list))
+print (min(marks_list))
