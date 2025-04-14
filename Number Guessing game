@@ -1,0 +1,10 @@
+import random
+
+#here we chose the range of how many numbers we include
+
+num=random.randint(1,5)
+guess_number=int(input("guess a number from 1 to 5"))
+if num==guess_number:
+  print ("yipee your guess was correct!!")
+else:
+  print ("your guess was wrong, the correct number was",num)
