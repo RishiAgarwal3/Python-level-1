@@ -1,0 +1,6 @@
+height = int(input("enter your height"))
+weight = int(input("enter your weight"))
+if height>140 and weight>40:
+  print("you are eligible to take the ride")
+else :
+  print("sorrry, you cannot take this ride")
