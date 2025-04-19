@@ -1,0 +1,7 @@
+age = int(input("enter your age"))
+if age<13:
+  print ("you are a child grow up ")
+elif age>12 and age<20:
+  print ("you are a teenager this is the best age")
+else:
+  print ("you are an adult nothing to say")
