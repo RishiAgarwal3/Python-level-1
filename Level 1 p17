@@ -1,0 +1,11 @@
+fan_on=True
+while fan_on:
+  print("fan is on")
+  fan_on=input("do you want to switch off the fan type false")
+  if fan_on=="false":
+    break
+i=1
+count=int(input("enter the number whose table you want to print"))
+while i<=10:
+  print (count*i)
+  i+=1
