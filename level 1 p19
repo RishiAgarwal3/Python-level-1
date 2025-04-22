@@ -1,0 +1,9 @@
+import turtle
+t=turtle.Turtle()
+t.color("red")
+sides=int(input("enter the number of sidesof your spiral"))
+angle=360/sides
+x=3
+for i in range(100):
+  t.forward(x+i)
+  t.left(angle)
