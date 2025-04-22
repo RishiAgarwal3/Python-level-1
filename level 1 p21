@@ -1,0 +1,17 @@
+import turtle
+import random
+lst=["blue","green","yellow","red","orange","pink","purple","black"]
+t=turtle.Turtle()
+t.right(120)
+x=200
+for i in range(8):
+  t.fillcolor(lst[i])
+  t.begin_fill()
+  t.forward(60)
+  t.right(90)
+  t.forward(60)
+  t.right(135)
+  t.forward(85)
+  t.end_fill()
+  t.left(160+x)
+t.hideturtle()
