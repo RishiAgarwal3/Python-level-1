@@ -1,0 +1,10 @@
+n1=1
+n2=1
+count=int(input("enter the numbers you want in your fibonacci series"))
+print(n1)
+print(n2)
+for i in range(count-2):
+  n3=n1+n2
+  print(n3)
+  n1=n2
+  n2=n3
