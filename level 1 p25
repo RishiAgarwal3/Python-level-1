@@ -1,0 +1,6 @@
+while True:
+  n =int(input("enter the number whose square you want, if  you want to exit enter 100"))
+  if n==100:
+    break
+  else:
+   print("the square of the number is",n*n) 
