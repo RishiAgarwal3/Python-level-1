@@ -1,0 +1,7 @@
+#the value of n is the number of first nutaral numbers whose sum you want
+n = int(input("enter the amount of numbers"))
+sumvalue=0
+for i in range(1,n+1):
+  sumvalue += (i*i)
+  
+print ("sum of squares =", sumvalue)
