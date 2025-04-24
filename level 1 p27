@@ -1,0 +1,11 @@
+import random
+num=random.randint(1,6)
+while True:
+  guess_number=int(input("enter a number from 1 to 6"))
+  if guess_number>num:
+    print("prediction is higher")
+  elif guess_number<num:
+    print("the prediction is lower")
+  else:
+    print("your guess was correct")
+    break
