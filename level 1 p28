@@ -1,0 +1,7 @@
+lst =[1,2,3,3,4,5,6,7,8,9,1,1,1,1]
+x=0
+for i in range (len(lst)):
+  if lst[i]<5:
+    x=x+1
+    print lst[i]
+print ("there are " + str(x) + " numbers smaller than 5 in the list")    
