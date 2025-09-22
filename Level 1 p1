@@ -1,4 +1,4 @@
-#
+
 name = "rishi"
 print (name)
 name=input("enter your name")
